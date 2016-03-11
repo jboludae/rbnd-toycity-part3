@@ -1,12 +1,14 @@
 class Product
 	@@products = []
 	attr_reader :title, :price, :stock
+
 	def initialize(options= {})
 		@title = options[:title]
 		@price = options[:price]
 		@stock = options[:stock]
 		add_to_products(@title)
 	end
+
 	def self.all
 		@@products
 	end
@@ -41,4 +43,5 @@ class Product
 		end
 		@@products << self
 	end
+
 end
