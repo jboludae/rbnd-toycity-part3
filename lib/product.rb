@@ -9,6 +9,10 @@ class Product
 		add_to_products(@title)
 	end
 
+	def decrease_stock
+		@stock -= 1
+	end
+
 	def self.all
 		@@products
 	end

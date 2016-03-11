@@ -1,0 +1,11 @@
+How long did you spend working on this project?
+3 hours more or less
+What was the most rewarding challenge you conquered?
+Getting more comfortable using Ruby classes, private methods, class variables, etc.
+What two additional features did you build? Why?
+I'm customer driven so I implemented these two features:
+- The .purchase method in the Customer class allows a customer to buy two or more products in one line. Why? Because it seem convenient.
+- The .show_transactions method in the Customer class allows the customer to retrieve the whole list of transactions associated with him. Why did I implement this? It looks convenient for the customer.
+Where do you still have room to grow?
+Inheritance. I have not used it in Ruby so far so this is where I have more room to grow.
+Also rising and catching errors. I created a couple of errors classes but do not still feel very competent with this topic.
